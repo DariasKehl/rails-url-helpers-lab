@@ -1,5 +1,7 @@
 <div>
+  <h2>All Students</h2>
+  <hr>
   <% @students.each do |student| %>
-    <div><%= student.first_name + " " + student.last_name %></div>
+    <div><%= student.to_s %></div>
   <% end %>
 </div>
